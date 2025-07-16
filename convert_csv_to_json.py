@@ -51,7 +51,7 @@ def process_csv(input_file):
     return json_data
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print("Usage: ./script.py input.csv output.json")
         sys.exit(1)
 
